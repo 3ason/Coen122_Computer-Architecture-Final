@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sat Jun  3 01:43:28 2023
+# Process ID: 19072
+# Current directory: Z:/coen122/final_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15236 Z:\coen122\final_project\final_project.xpr
+# Log file: Z:/coen122/final_project/vivado.log
+# Journal file: Z:/coen122/final_project\vivado.jou
+# Running On: win10722, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 8, Host memory: 68431 MB
+#-----------------------------------------------------------
+start_gui
+open_project Z:/coen122/final_project/final_project.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+source datapath_testbench.tcl
+relaunch_sim
+relaunch_sim
